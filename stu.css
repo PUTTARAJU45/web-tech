@@ -1,0 +1,354 @@
+*{
+    background-color: rgb(208, 208, 235);
+    margin: 0px;
+    padding: 0px;
+}
+#stu_page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    border: 5px 5px;
+    border-radius: 50px;
+    border-color: aliceblue;
+    border-style: solid;
+    height: 50px;
+    background-color: aliceblue;
+    border-width: 10px;
+width: 1300px;
+text-align: center;
+font-size: 45px;
+font-weight: bolder;
+font-style: italic;
+color: rgb(37, 13, 146);
+
+    
+}
+.stu_form
+{
+    margin-top: 30px;
+    border: 20px ;
+    border-color: aliceblue;
+    border-style: solid;
+    height: 800px;
+    border-width: 20px;
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#lname
+{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+input.fname
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 30px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+   
+}
+
+input.pname
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 30px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+    margin-left: 20px;
+}
+input.pcname
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 30px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+    margin-left: 108px;
+}
+
+#lpname
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#dname
+{
+    
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+
+}
+input.dobname
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 30px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+    margin-left: 20px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.bcolor{
+    background-color: aliceblue;
+}
+#email
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+
+input.email
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 30px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+    margin-left: 50px;
+}
+
+#phno{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+
+input.phno
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 30px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+    margin-left: 20px;
+}
+
+input.genderm
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+input.genderf
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+input.gendero
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+#others
+{
+    font-size: larger;
+    margin-left: 5px;
+    font-weight: lighter;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#college
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+input.college
+{
+    border: 5px;
+    border-color:black;
+    border-style: solid;
+    height: 35px;
+    border-width: 3px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    text-align: left;
+    font-size: medium;
+    font-weight: 30px;
+    margin-left: 40px;
+}
+#skills
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+input.cskill
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+#image
+{
+    border: 5px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+input.image
+{
+    border: 2px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+   
+    margin-left: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+#button
+{
+    border: 10px;
+    border-color: #21a8c0;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 40px;
+    width: 150px;
+    background-color: #21a8c0;
+    margin-top: 20px;
+    margin-left: 210px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+

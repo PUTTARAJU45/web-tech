@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<Title>Student</Title>
+<link rel="stylesheet" href="stu.css">
+    </head>
+    <body>
+        <div id="stu_page">
+            <h1>Student Registration Form</h1>
+
+            <div class="stu_form">
+                <form action="">
+<div class="bcolor">
+    <label id="lname"for="firstname">First Name</label>
+    <input class="fname" name="firstname" type="text"  maxlength="20" required>
+    <label id="lname" for="lastname">Last Name</label>
+    <input class="fname" class="lastname" type="text"  >
+</div>
+
+<div class="bcolor">
+    <label  id="lpname" for="passcode">Pass Code</label>
+    <input class="pname" id="passcode" type="password"   required>
+    
+    <input class="pcname" id="passcode" type="password" placeholder="Re-Pass Code">
+</div>
+<div class="bcolor">
+    <label id="dname" for="dob" >Date of Birth</label>
+    <input class="dobname" type="date" id="dob" >
+</div>
+
+<div class="bcolor">
+    <Label  id="email" for="Email">Email</Label>
+    <input class="email" type="email" name="Email"  required>
+    <label id="phno"  for="phno">Ph No.</label>
+    <input class="phno" type="number" name="phno"  max="10">
+</div>
+<div class="bcolor">
+    <label for="gender" id="dname">Gender</label>
+    <input class="genderm" type="radio" name="gender"  id="m"><label id="others" for="m">Male</label>
+    <input class="genderf" type="radio" name="gender"  id="f"><label id="others" for="f">Female</label>
+    <input class="gendero" type="radio" name="gender"  id="o"><label id="others" for="f">Others</label>
+</div>
+
+<div class="bcolor">
+    <label id="college"for="college">College</label>
+    <input class="college" id="college" type="search"  list="colleges">
+    <datalist id="colleges">
+        <option>BMS College</option>
+        <option>RV College</option>
+        <option>BIT College</option>
+        <option>VTU Colleges</option>
+        <option>Ramaiya College</option>
+    </datalist>
+</div>
+
+<div class="bcolor"> 
+    <label id="skills" for="skills">Skills</label>
+    
+    <input class="cskill" id="skills" type="checkbox" ><label id="others">Java </label>
+    <input class="cskill"id="skills" type="checkbox" ><label id="others">JavaScript </label>
+    <input class="cskill" id="skills" type="checkbox" ><label id="others">Spring Boot </label>
+    <input class="cskill"id="skills" type="checkbox" ><label id="others">Sql</label>
+    <input class="cskill" id="skills" type="checkbox" ><label id="others">Web</label>
+</div>
+
+<div class="bcolor">
+    <label for="img" id="image">Upload Image </label>
+    <input class="image" type="file"  id="img"> 
+</div>
+<div class="bcolor">
+    <label id="image" for="card">Upload Adharcard</label>
+    <input  class="image" type="file" id="card" >
+</div>
+<div class="bcolor">
+    <label id="image" for="cv">Upload Resume</label>
+    <input class="image" type="file" id="cv" style="margin-bottom: 20px;" >
+</div>
+
+<div class="bcolor">
+    <hr>
+    <button id="button" type="button">Register</button>
+</div>
+
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
